@@ -1,6 +1,11 @@
+# !pip install scipy==1.7.3
+# !pip install pandas==1.5.3
+# !pip install statsmodels==0.14.0
+
 import statsmodels.api as sm
 import pandas as pd
 import scipy 
+
 
 def linear_reg(y, X):
     """
